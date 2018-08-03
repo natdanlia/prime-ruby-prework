@@ -1,10 +1,15 @@
 # Add  code here!
 def prime?(int)
   divider = 1
+  arr = []
   while divider < int
     divider += 1
-    puts int % divider
-   break if int % divider == 0 
-      puts "jj"
+    arr.push(int % divider)
   end
+    if arr.index(0) == nil
+      false 
+    else
+      false
+    end
+  
 end
