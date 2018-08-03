@@ -7,8 +7,8 @@ def prime?(int)
     arr.push(int % divider)
   end
     if arr.index(0) == nil
-      true
+      puts "i am prime"
     else
-      false
+      puts "i am not"
     end
 end
