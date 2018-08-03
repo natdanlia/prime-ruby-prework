@@ -6,5 +6,6 @@ def prime?(int)
     divider += 1
     arr.push(int % divider)
   end
-  arr
+    if arr.include?(0)
+    end
 end
