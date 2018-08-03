@@ -7,8 +7,8 @@ def prime?(int)
     arr.push(int % divider)
   end
     if arr.include?(0)
-      puts "i am prime"
+      puts "i am not prime"
     else
-      puts "i am not"
+      puts "i am prime"
     end
 end
