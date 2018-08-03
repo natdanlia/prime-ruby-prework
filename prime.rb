@@ -7,7 +7,7 @@ def prime?(int)
     arr.push(int % divider)
   end
     if arr.index(0) == nil
-      false 
+      true
     else
       false
     end
