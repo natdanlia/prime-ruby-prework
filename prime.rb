@@ -6,7 +6,7 @@ def prime?(int)
     divider += 1
     arr.push(int % divider)
   end
-    if arr.index(0) == nil
+    if arr.include?(0)
       puts "i am prime"
     else
       puts "i am not"
