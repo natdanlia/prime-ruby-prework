@@ -6,9 +6,9 @@ def prime?(int)
     divider += 1
     arr.push(int % divider)
   end
-    if arr.
-      true 
+    if arr.include?(0)
+      puts "jj"
     else
-      false 
+      puts "not prime"
     end
 end
