@@ -7,5 +7,8 @@ def prime?(int)
     arr.push(int % divider)
   end
     if arr.include?(0)
+      true 
+    else
+      false 
     end
 end
